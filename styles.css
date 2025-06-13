@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #bad6f3;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #5890eb;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input[type="text"],
+input[type="number"],
+select {
+    padding: 6px;
+    border: 1px solid #5f94ef;
+    border-radius: 4px;
+    width: 100%;
+}
+button {
+    padding: 10px;
+    background-color: rgb(241, 163, 181);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(207, 42, 91);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #80a6e3;
+    color: white;
+}
+#output {
+    margin-top: 20px;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 4px;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    th, td {
+        font-size: 14px;
+        padding: 8px;
+    }
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+    h1 {
+        font-size: 24px;
+
+    }
+}
